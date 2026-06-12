@@ -54,7 +54,7 @@ public class Day7 {
         onDutyRequest.rejectOnDutyRequest();
     }
 }*/
-
+/*Program2
     static class Payment {
         String amount;
 
@@ -109,6 +109,8 @@ public class Day7 {
     }
 }
 
+
+ */
 
 
 
