@@ -1,4 +1,6 @@
 public class  day8 {
+    /*
+    program 1
     record  CourseRecord(String courseName,String department){
     }
     static void main(){
@@ -8,4 +10,22 @@ public class  day8 {
 
     }
 
+     */
+
+    enum LANGUAGES {
+        TA("Tamil"),
+        EN("English"),
+        GR("German"),
+        JP("Janpanese");
+String description;
+ LANGUAGES(String description){
+     this.description=description;
+ }
+    }
+    static void main(){
+        System.out.println(LANGUAGES.TA.description);
+        System.out.println(LANGUAGES.EN.description);
+        System.out.println(LANGUAGES.JP.description);
+        System.out.println(LANGUAGES.GR.description);
+    }
 }
