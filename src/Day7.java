@@ -1,6 +1,6 @@
 import java.awt.desktop.UserSessionEvent;
 
-public class Day7 {}
+public class  Day7 {}
     /* program 1
     static class Request {
         String name;
