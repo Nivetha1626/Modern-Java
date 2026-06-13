@@ -1,4 +1,4 @@
-void main() {
+void main() {}
     /*  Marks  program 1
     // int[] Marks =new int[5];
 int[][] marks = new int[5][3];

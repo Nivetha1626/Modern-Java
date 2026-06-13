@@ -1,6 +1,6 @@
 import java.awt.desktop.UserSessionEvent;
 
-public class Day7 {
+public class Day7 {}
     /* program 1
     static class Request {
         String name;
@@ -48,9 +48,9 @@ public class Day7 {
     }
 
     static void main() {
-        LeaveRequest leaveRequest = new LeaveRequest("Nivetha","10-06-06","Fever");
+        LeaveRequest leaveRequest = new LeaveRequest("nive","10-06-06","Fever");
         leaveRequest.approveLeaveRequest();
-        OnDutyRequest onDutyRequest = new OnDutyRequest("Nivetha","10-06-06","function");
+        OnDutyRequest onDutyRequest = new OnDutyRequest("nive","10-06-06","function");
         onDutyRequest.rejectOnDutyRequest();
     }
 }*/
@@ -83,7 +83,7 @@ public class Day7 {
         }
 
         void TransfercardPayment() {
-            System.out.println("Cardpayment is Transfer");
+            System.out.println("card payment is Transfer");
         }
     }
 
