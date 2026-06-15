@@ -44,6 +44,7 @@ public class interfaceexample {
      checkingEmpolyee.name();
  }
  }*/
+
     interface Employee {
         String Name();
 
