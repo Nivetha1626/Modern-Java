@@ -21,20 +21,20 @@ static class Department extends College {
     }
 }
 
-static class SecondYear extends Department{
-    SecondYear(){
+static class Year extends Department{
+    Year(){
         System.out.println("SecondYear");
     }
 
     @Override
     public void close() throws Exception {
-        System.out.println("SecondYear Close");
+        System.out.println("Year Close");
         super.close();
     }
 }
 
 static void main() throws Exception {
-    try(SecondYear secondYear= new SecondYear())
+    try(Year secondYear= new Year())
     {
 
     }
