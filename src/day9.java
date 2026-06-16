@@ -23,7 +23,7 @@ static class Department extends College {
 
 static class Year extends Department{
     Year(){
-        System.out.println("SecondYear");
+        System.out.println("Year");
     }
 
     @Override
