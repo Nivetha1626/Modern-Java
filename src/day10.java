@@ -42,7 +42,8 @@ public class day10 {
     }
 }
  */
-import java.util.LinkedList;
+
+/*import java.util.LinkedList;
 
 public class day10 {
 
@@ -68,9 +69,16 @@ public class day10 {
                 s.marks = 95; // Update marks from 85 to 95
             }
         }
-    }
 
-    public static void main(String[] args) {
+   }
+
+ */
+
+
+
+
+
+ /*   public static void main(String[] args) {
 
         LinkedList<Student> students = new LinkedList<>();
 
@@ -93,5 +101,7 @@ public class day10 {
             System.out.println(s.name + " " + s.regNo + " " + s.marks);
         }
     }
-}
+
+  */
+
 
