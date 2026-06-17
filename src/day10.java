@@ -90,11 +90,7 @@ public class day10 {
         // Display Students
         System.out.println("\nStudent Details");
         for (Student s : students) {
-            System.out.println(
-                    s.name + " " +
-                            s.regNo + " " +
-                            s.marks
-            );
+            System.out.println(s.name + " " + s.regNo + " " + s.marks);
         }
     }
 }
