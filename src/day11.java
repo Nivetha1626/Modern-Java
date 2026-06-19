@@ -36,5 +36,4 @@ public class day11 {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         });
     }
-
 }
