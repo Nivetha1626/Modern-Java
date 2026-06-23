@@ -71,5 +71,4 @@ String description;
             handleLogin(loginLoading);
         }
     }
-
  */
